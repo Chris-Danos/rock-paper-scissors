@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <script src="game-func.js" asynch></script>
-        <title>Rock Paper Scissors</title>
-    </head>
-    <body>
-        <h1>Rock Paper Scissors</h1>
-        <h2>First to 5 wins!</h2>
-        <div class="buttons">
-            <button class="btn" id="rock"></button>
-            <button class="btn" id="paper"></button>
-            <button class="btn" id="Scissor"></button>
-        </div>
-        <div class="text-line">
-            <p>Player Score</p>
-            <p>Computer Score</p>
-        </div>
-        <div>
-            <p>May the Best "Person" Win!</p>
-        </div>
-        <footer>
-            Made by: <a href=https:github.com/chris-danos> Chris Danos</a>
-        </footer>
-    </body>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <script src ="game-func.js" async></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <h2>First to 5 Wins!</h2>
+    <div class="buttons">
+        <button class="btn" id="rock"><img src="images/rock.png" alt="rock image"/></button>
+        <button class="btn" id="paper"><img src="images/paper.png" alt="paper image"/></button>
+        <button class="btn" id="scissors"><img src="images/scissors.png" alt="scissors image"/></button>
+    </div>
+    <div class="text-line">
+    <p class="text" id="player-score">Player Score:</p>
+    <p class="text" id="comp-score">Computer Score:</p>
+    </div>
+    <div>
+        <p class="text" id="output">May the Best Person Win!</p>
+    </div>
+    <footer>Made by: <a href=https:github.com/chris-danos> Chris Danos</a></footer>
+</body>
 </html>
